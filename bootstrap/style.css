@@ -1,0 +1,417 @@
+.navlogo {
+
+  height: 16px;
+
+  width: 16px;
+
+}
+
+html {
+
+   box-sizing: border-box;
+
+   font-family: sans-serif;
+
+   line-height: 1.15;
+
+   -webkit-text-size-adjust: 100%;
+
+   -ms-text-size-adjust: 100%;
+
+   -ms-overflow-style: scrollbar;
+
+   -webkit-tap-highlight-color: transparent;
+
+}
+
+body {
+
+    margin: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+    font-size: 1rem;
+
+    font-weight: normal;
+
+    line-height: 1.5;
+
+    color: #212529;
+
+    background-color: #fff;
+
+}
+
+#prup{
+
+  color: white;
+
+    border-radius: 4px;
+
+    border: 1px solid white;
+
+    display: inline-block;
+
+    float: left;
+
+    position: relative;
+
+    top: -9px;
+
+    left: 10px;
+
+    padding: 0em 0.3em;
+
+    font-size: 1.6em;
+
+    font-weight: 500;
+
+}
+
+#header {
+
+  display:block;
+
+  background-color: #563d7c;
+
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+
+  position: sticky;
+
+  top: 0;
+
+  padding: 1.5rem 1rem;
+
+}
+
+
+
+#header > ul {
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+#header > ul > li {
+
+  display: inline;
+
+  text-align: -webkit-match-parent;
+
+}
+
+#header > ul > li > a{
+
+  text-decoration:none;
+
+  padding-right: .5rem;
+
+  padding-left: .5rem;
+
+  color: #cdbfe3;
+
+  padding: 0.5rem 1rem;
+
+}
+
+#right {
+
+  float: right;
+
+}
+
+.yellow-button{
+
+ float: right;
+
+ font-weight: 500;
+
+ color: #ffe484;
+
+ border-color: #ffe484;
+
+ text-decoration: none;
+
+ text-align: center;
+
+ border: 1px solid #ffe484;;
+
+ padding: 0.5rem 0.75rem;
+
+ font-size: 1rem;
+
+ font-weight:bold;
+
+ position: relative;
+
+ top: -9px;
+
+ right: -10px;
+
+ line-height: 1.25;
+
+ border-radius: 0.25rem;
+
+}
+
+.yellow-button:hover {
+
+ background-color: #ffe484;
+
+ color: black;
+
+ font-weight:bold;
+
+}
+
+
+
+#home {
+
+  font-weight: 500;
+
+  color: white;
+
+  background-color: transparent;
+
+  font-family: 'Baloo Bhaijaan', cursive;
+
+}
+
+h1 {
+
+  color:#7952b3;
+
+  font-size:4rem;
+
+  font-weight:500;
+
+  line-height: 1;
+
+  margin-bottom: 1rem;
+
+  font-family: inherit;
+
+  box-sizing: inherit;
+
+  text-align: left ;
+
+}
+
+.container{
+
+  position: relative;
+
+  padding: 3rem 15px;
+
+  padding-top: 5rem;
+
+  padding-bottom: 5rem;
+
+  margin-right: auto;
+
+  margin-left: auto;
+
+  padding-right: 15px;
+
+  padding-left: 15px;
+
+  width: 100%;
+
+  text-align: center;
+
+  max-width: 1284px;
+
+  margin: auto;
+
+}
+
+.container > p{
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  line-height: 1.5;
+
+  color: #212529;
+
+  text-align:left;
+
+  font-size: x-large;
+
+}
+
+img{
+
+    max-width: 100%;
+
+    height: auto;
+
+  vertical-align: middle;
+
+    border-style: none;
+
+  position: relative;
+
+    float: right;
+
+}
+
+#btn-pur{
+
+color: #7952b3;
+
+border-color: #7952b3;
+
+font-size: large;
+
+background-color: transparent;
+
+background-image: none;
+
+border-radius: 0.25rem;
+
+}
+
+#btn-pur:hover {
+
+  background-color:#7952b3;
+
+  color: white;
+
+}
+
+#btn-gr {
+
+    color: #868e96;
+
+    background-color: transparent;
+
+    background-image: none;
+
+    border-color: #868e96;
+
+   border-radius: 0.25rem;
+
+    font-size: large;
+
+}
+
+#btn-gr:hover {
+
+  background-color:#868e96;
+
+  color: white;
+
+}
+
+
+
+.top-btn{
+
+ margin: 10px 5%;
+
+ padding: 1.2em 4.2em;
+
+}
+
+.bottom{
+
+ background-color: #f8f9fa;
+
+}
+
+.footerdiv{
+
+ background-color: #f8f9fa ;
+
+
+
+}
+
+.bottom-btn{
+
+    color: #007bff;
+
+    background-color: transparent;
+
+    background-image: none;
+
+    border-color: #007bff;
+
+   border-radius: 0.25rem;
+
+      padding: 0.5em 1.0em;
+
+}
+
+.bottom-btn:hover {
+
+background-color:#007bff;
+
+color: white;
+
+}
+
+.footerul{
+
+list-style-type: none;
+
+padding-left: 0;
+
+margin-bottom: 1rem;
+
+margin-top: 0;
+
+}
+
+.footerdiv > ul > li {
+
+display:inline;
+
+}
+
+.footerdiv > ul > li > a {
+
+  color: #696e73;
+
+  text-decoration:none;
+
+  padding-right: .5rem;
+
+  padding-left: .5rem;
+
+}
+
+.footerdiv > ul > li > a:hover {
+
+color: #007bff;
+
+text-decoration:underline;
+
+}
+
+.footerdiv > p > a {
+
+  color: #696e73;
+
+  text-decoration:none;
+
+  padding-right: .5rem;
+
+  padding-left: .5rem;
+
+}
+
+.footerdiv > p > a:hover {
+
+color: #007bff;
+
+text-decoration:underline;
+
+}
